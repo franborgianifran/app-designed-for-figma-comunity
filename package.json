@@ -1,0 +1,14 @@
+{
+  "name": "firstpractice",
+  "version": "1.0.0",
+  "description": "Este proyecto es una copia de un proyecto encontrado en figma",
+  "main": "/src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Development"
+  ],
+  "author": "Undefined",
+  "license": "MIT"
+}
