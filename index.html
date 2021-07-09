@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="header__nav">
+        <nav class="header__nav" id="home">
             <h1 class="header__logo">Logo.</h1>
             <ul class="header__nav--list">
                 <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Offer</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#offer">Offer</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="header__info">
@@ -29,12 +32,12 @@
         </div>
     </header>
     <main>
-        <section class="main__cards">
+        <section class="main__cards" id="about">
             <div><img src="./assets/object.svg" alt=""> </div>
             <div><img src="./assets/object.svg" alt=""> </div>
             <div><img src="./assets/object.svg" alt=""> </div>
         </section>
-        <section class="bussines__info">
+        <section class="bussines__info" id="offer">
             <div class="bussines__info--img">
                 <img src="./assets/bussines-person.svg" alt="">
             </div>
@@ -50,7 +53,7 @@
                 <button>Learn more</button>
             </div>
         </section>
-        <section class="carousel">
+        <section class="carousel" id="testimonials">
             <div class="slick-list" id="slick-list">
                 <button class="slick-arrow slick-prev" id="button-prev"><img src="./assets/arrow-back.svg" alt=""></button>
                 <div class="slick-track" id="track">

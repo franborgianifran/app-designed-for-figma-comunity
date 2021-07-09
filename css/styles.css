@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
 header{
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
 }
