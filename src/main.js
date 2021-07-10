@@ -56,4 +56,15 @@ window.addEventListener('scroll', () => {
     if (window.scrollY == 0) {
         header.classList.remove('header__scroll')
     }
+});
+
+const buttonScroll = document.querySelector('.button-scroll-top');
+buttonScroll.addEventListener('click', () => {
+    window.scrollTo(0, 0);  
+})
+window.addEventListener('scroll',()=> {
+    buttonScroll.classList.add('active')
+    if (window.scrollY <= 100) {
+        buttonScroll.classList.remove('active');
+    }
 })

@@ -307,6 +307,25 @@ ul.show{
         width: 60vw;
     }
 }
+button.button-scroll-top{
+    position: fixed;
+    right: -40px;
+    transition: 1.6s all;
+}
+body button.active{
+    display: flex;
+    right: 40px;
+    bottom: 30%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: linear-gradient(#D16BA5, #86A8E7, #5FFBF1);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    z-index: 6;
+}
 @media(max-width: 720px){
     .header__info--container{
         width: auto;
