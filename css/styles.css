@@ -311,7 +311,8 @@ button.button-scroll-top{
     position: fixed;
     right: -40px;
     transition: 1.6s all;
-}
+border-radius: 50%`     ~   `   `   `   `   ;
+90\
 body button.active{
     display: flex;
     right: 40px;
