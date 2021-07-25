@@ -311,8 +311,8 @@ button.button-scroll-top{
     position: fixed;
     right: -40px;
     transition: 1.6s all;
-border-radius: 50%`     ~   `   `   `   `   ;
-90\
+border-radius: 50%;
+}
 body button.active{
     display: flex;
     right: 40px;
@@ -320,7 +320,7 @@ body button.active{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background: linear-gradient(#D16BA5, #86A8E7, #5FFBF1);
+    background: transparent;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -328,6 +328,10 @@ body button.active{
     z-index: 6;
     outline: none;
     box-shadow: 0px 0px 30px #fff, 0px 0px 30px #fff;
+}
+body button.button-scroll-top img{
+    width: 100%;
+    height: 100%;
 }
 @media(max-width: 720px){
     .header__info--container{
